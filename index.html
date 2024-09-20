@@ -1,0 +1,506 @@
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <title>Portfolio Web - PV</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!--Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/fb34885149.js" crossorigin="anonymous"></script>
+
+ </head>
+ 
+ <body class="bg-light">
+ 
+ <!-- navbar start-->
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">PV</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Experience</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  
+ <!-- home section start-->
+<section class="home py-5" id="home">
+  <div class="container-lg">
+      <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0 ">
+              <div class="home-img text-center">
+                  <img src="img/profile.png" class="rounded-circle mw-100"
+                      alt="profile img">
+
+              </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+              <div class="home-text">
+                  <p class="text-muted mb-1">Olá, sou</p>
+                  <h1 class="text-danger text-uppercase fs-1 fw-bold">Paulo Victor</h1>
+                  <h2 class="fs-4">Desenvolvo aplicativos e estudo Análise de Dados.</h2>
+                  <p class="mt-4 text-muted">Sou desenvolvedor de software focado em back-end (e ocasionalmente
+                      desenvolvimento
+                      aplicações web). <br> Atualmente focado na área de Análise de Dados com Python, Banco de dados
+                      SQL
+                      Relacional
+                      e Powerbi.</p>
+                  <a href="https://github.com/pevehdev" class="btn btn-danger px-3 mt-3"> Meu Portfolio</a>
+              </div>
+
+          </div>
+
+      </div>
+  </div>
+</section>
+<!-- home section end-->
+
+<!--About section start-->
+<section class="about py-5" id="about">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-tittle text-center">
+                  <h2 class="fw-bold mb-5">Sobre Mim</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="about-text">
+                  <h3 class="fs-4 mb-3">Um pouco sobre mim</h3>
+                  <p class="text-muted">Participação em projetos no qual tive oportunidade de aperfeiçoar minhas
+                      habilidades com criação de sites, gerenciamento de banco de dados e também manipulação de dados
+                      desde o tratamento até a geração de insights. Minhas especialidades incluem Python, React,
+                      Node.Js, Javascript, Bootstrap, PostgreSQL e PowerBi</p>
+              </div>
+              <div class="row text-center text-uppercase my-3">
+                  <div class="col-sm-4">
+                      <div class="fact-item">
+                          <h4 class="fs-1 fw-bold">+10</h4>
+                          <p class="text-muted">Projects Completed</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="fact-item">
+                          <h4 class="fs-1 fw-bold">+116</h4>
+                          <p class="text-muted">Commits realizados</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="fact-item">
+                          <h4 class="fs-1 fw-bold">+10</h4>
+                          <p class="text-muted">Contribuições</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-12 d-flex align-items-center">
+                      <a href="https://raw.githubusercontent.com/pevehdev/portfolio-web/main/resume/Curriculo%20Paulo%20Victor%203.pdf" class="btn px-3 btn-danger me-5">Download Curriculo </a>
+                      <div class="social-links">
+                          <a href="https://www.instagram.com/pevehdev/" class="text-dark me-2"> <i class="fab fa-instagram" ></i></a>
+                          <a href="https://www.linkedin.com/in/pevehdev/" class="text-dark me-2"> <i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">JavaScript</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">Bootstrap</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">Python</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;" aria-valuenow="90"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">React</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="80"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">Node.js</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">PostgreSQL</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="80"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+              <div class="skill-item mb-4">
+                  <h3 class="fs-6">Power BI</h3>
+                  <div class="progress" style="height: 5px;">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="70"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+<!--About section end-->
+
+<!--service section-->
+<section class="services py-5 " id="services">
+  <div class="container-lg">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-tittle text-center">
+                  <h2 class="fw-bold mb-5">Áreas de Atuação</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row text-center">
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                  <div class="icon my-3 text-danger fs-2">
+                      <i class="fas fa-code"></i>
+
+                  </div>
+                  <h3 class="fs-5 py-2">Web Development</h3>
+                  <p class="text-muted">Desenvolvimento Web: 6 projetos com React, JS, CSS, HTML, APIs com
+                      JSON-server, CRUD com Node.js e MySQL.
+
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                  <div class="icon my-3 text-danger fs-2">
+                      <!-- <i class="fas fa-lightbulb"></i> -->
+                      <i class="fa-solid fa-chart-simple"></i>
+
+                  </div>
+                  <h3 class="fs-5 py-2">Data Science</h3>
+                  <p class="text-muted">Atuação em projetos voltados para análise de dados com Python, PostgreSQL e
+                      Power Bi para geração de insights valiosos.</p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+              <div class="service-item shadow-sm p-4 rounded bg-white">
+                  <div class="icon my-3 text-danger fs-2">
+                      <i class="fa-solid fa-database"></i>
+
+                  </div>
+                  <h3 class="fs-5 py-2">Banco de Dados</h3>
+                  <p class="text-muted">Alguns projetos publicados com uso de SQL utilizando tecnologias como
+                      PostgreSQL e MySQL além de consumo de API REST</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--service section end-->
+
+<!--Portfolio section start-->
+<section class="portfolio bg-white py-5" id="portfolio">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-tittle text-center">
+                  <h2 class="fw-bold mb-5"> Últimos projetos</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/7.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2">Análise Criptomoedas</h3>
+                  <p class="mb-4"><a href="https://app.powerbi.com/view?r=eyJrIjoiZTNiMDAyNTctZWZmYy00ODNlLWFiZGQtY2FlZGZhYTVjNjQ1IiwidCI6IjRkMGM2ZTEyLWQxZGYtNDJkYy1iNDYyLTc1MjIzNzlmZDM5ZSJ9" class="text-danger text-decoration-none" target="_blank">Clique Aqui</a></p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/8.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2">Análise Vendas</h3>
+                  <p class="mb-4"><a href="https://app.powerbi.com/view?r=eyJrIjoiY2I0YmQ1YTctN2IyMS00ZDU3LTg2NmMtZDk2NjJjYWVjNWIyIiwidCI6IjRkMGM2ZTEyLWQxZGYtNDJkYy1iNDYyLTc1MjIzNzlmZDM5ZSJ9" class="text-danger text-decoration-none">Clique Aqui</a></p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/9.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2">Adote Aqui</h3>
+                  <p class="mb-4"><a href="https://pevehdev.github.io/Adote-Aqui/" class="text-danger text-decoration-none">Clique Aqui</a></p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/4.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2">Resília Data</h3>
+                  <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Clique Aqui</a></p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/5.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2"></h3>
+                  <p class="mb-4"><a href="https://github.com/pevehdev/hora-do-lanche" class="text-danger text-decoration-none">Snack Time</a></p>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+              <div class="portfolio-item">
+                  <img src="img/portfolio/6.jpg" class="w-100 img-thumbnail"
+                      alt="portfolio item">
+                  <h3 class="text-capitalize fs-5 my-2">Filterable Image Gallery</h3>
+                  <p class="mb-4"><a href="#" class="text-danger text-decoration-none">Live Demo</a></p>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+<!--Portfolio section end-->
+
+<!-- freelancer available section start -->
+<section class="freelancer-available py-5 bg-danger">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+              <p class="text-light fs-5">Você deseja criar um novo projeto?</p>
+              <h2 class="fs-1 text-white mb-4">Estou disponível para lhe ajudar!</h2>
+              <!-- <a href="#contact" class="btn btn-outline-light">Clique Aqui</a> -->
+          </div>
+      </div>
+
+  </div>
+</section>
+<!-- freelancer available section end -->
+
+<!-- testimonials section start -->
+<!-- <section class="testimonials py-5" id="testimonials">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-tittle text-center">
+                  <h2 class="fw-bold mb-5"> Avaliações</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-lg-8 col-xl-7">
+              <div class="row justify-content-center">
+                  <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
+                          <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                          <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner p-1">
+                          testi item start 
+                          <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                              <div class="testi-author-info d-flex align-items-center">
+                                  <img class="img-thumbnail rounded-circle"
+                                      src="{{url_for('static', filename='img/testimonial/1.jpg')}}" alt="author img">
+                                  <div class="author ms-3">
+                                      <h3 class="fs-6 mb-1">Pessoa 1</h3>
+                                      <p class="text-muted m-0">Seo Manager</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                  Alias veritatis maiores repellat asperiores fuga reiciendis assumenda iusto pariatur
+                                  eum debitis? Voluptatibus ipsa, eveniet provident excepturi earum delectus magnam?
+                                  Iure, atque!</p>
+                              <div class="rating text-danger">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                              </div>
+                          </div>
+                          testi item end 
+
+                       testi item start 
+                          <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                              <div class="testi-author-info d-flex align-items-center">
+                                  <img class="img-thumbnail rounded-circle"
+                                      src="{{url_for('static', filename='img/testimonial/2.jpg')}}" alt="author img">
+                                  <div class="author ms-3">
+                                      <h3 class="fs-6 mb-1">Pessoa 2</h3>
+                                      <p class="text-muted m-0">Seo Manager</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                  Alias
+                                  veritatis maiores repellat asperiores fuga reiciendis assumenda iusto pariatur eum
+                                  debitis? Voluptatibus ipsa, eveniet provident excepturi earum delectus magnam? Iure,
+                                  atque!</p>
+                              <div class="rating text-danger">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                              </div>
+                          </div>
+                          testi item end 
+                           testi item start 
+                          <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                              <div class="testi-author-info d-flex align-items-center">
+                                  <img class="img-thumbnail rounded-circle"
+                                      src="{{url_for('static', filename='img/testimonial/3.jpg')}}" alt="author img">
+                                  <div class="author ms-3">
+                                      <h3 class="fs-6 mb-1">Pessoa 3</h3>
+                                      <p class="text-muted m-0">Seo Manager</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                  Alias
+                                  veritatis maiores repellat asperiores fuga reiciendis assumenda iusto pariatur eum
+                                  debitis? Voluptatibus ipsa, eveniet provident excepturi earum delectus magnam? Iure,
+                                  atque!</p>
+                              <div class="rating text-danger">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                              </div>
+                          </div>
+                           testi item end  
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> -->
+      <!-- Testimonials section end -->
+      <!-- Contact section start -->
+      <section class="contact py-5" id="contact">
+          <div class="container-lg py-4">
+              <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                      <div class="section-tittle text-center">
+                          <h2 class="fw-bold mb-5"> Contate-me</h2>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-5">
+                      <div class="contact-item d-flex mb-3">
+                          <div class="icon fs-4 text-danger">
+                              <i class="fas fa-envelope"></i>
+                          </div>
+                          <div class="text ms-3">
+                              <h3 class="fs-5">Email</h3>
+                              <p class="text-muted">srpaulovictor@outlook.com</p>
+                          </div>
+                      </div>
+                      <div class="contact-item d-flex mb-3">
+                          <div class="icon fs-4 text-danger">
+                              <i class="fas fa-phone"> </i>
+                          </div>
+                          <div class="text ms-3">
+                              <h3 class="fs-5">Telefone</h3>
+                              <p class="text-muted">(21)97164-8743</p>
+                          </div>
+                      </div>
+                      <div class="contact-item d-flex mb-3">
+                          <div class="icon fs-4 text-danger">
+                              <i class="fas fa-map-marker-alt"> </i>
+                          </div>
+                          <div class="text ms-3">
+                              <h3 class="fs-5">Endereço</h3>
+                              <p class="text-muted">Rua Jardim Botânico, 40</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-7">
+                      <div class="contact-form">
+                          <form>
+                              <div class="row">
+                                  <div class="col-lg-6 mb-4">
+                                      <input type="text" placeholder="Seu nome" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                  </div>
+                                  <div class="col-lg-6 mb-4">
+                                      <input type="text" placeholder="Seu email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12 mb-4">
+                                          <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12 mb-4">
+                                          <textarea  rows="5" placeholder="Sua mensagem" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-lg-12">
+                                          <button type="submit" class="btn btn-danger px-3">Enviar Mensagem</button>
+                                      </div>
+
+                                  </div>
+
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+      </section>
+      <!-- Contact section end -->
+
+      <!-- Footer start -->
+      <footer class="footer border-top py-4">
+          <div class="container-lg">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <p class="m-0 text-center text-muted">&copy; All Rights Reserved</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <!-- Footer end -->
+
+
+
+</section>
+ 
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>
