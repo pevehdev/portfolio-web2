@@ -36,4 +36,4 @@ Foi criado primeiro o repositório no github e realizado o clone do projeto. O c
 
 10. Compartilhe o URL do seu site com seus colegas de classe.
 
-![image](https://pevehdev.github.io/portfolio-web2/)
+https://pevehdev.github.io/portfolio-web2
